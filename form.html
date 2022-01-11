@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <table id=h1>
+        <form>
+            <tr>
+                <td>Username :</td>
+                <td><input type='text' name ='t1' size = '30' placeholder = 'Username' required maxlength = '10'  autocomplete = 'off' autofocus></td>
+            </tr>
+            <tr>
+                <td>password :</td>
+                <td><input type='password' name = 'p1' size = '30' placeholder = 'password' required maxlength = '10' ></td>
+            </tr>
+            <tr>
+                <td>Gender:</td>
+                <td><input type ='radio' name='r1' value = 'm' checked>male
+                <input type ='radio' name='r1' value = 'f'>female</td>
+            </tr>
+            <tr>
+                <td>Hobbies:</td><td><input type ='checkbox' name='c1' value = 'game'>gaming
+                <input type ='checkbox' name='c2' value = 'read' checked>reading
+                <input type ='checkbox' name='c3' value = 'travel'>travelling</td>                
+            </tr>
+            
+            <tr>
+                <td>location</td><td><select name='ct' id=''>
+                <optgroup lable = 'gujarat'>
+                <option value = 'dhr'>jetpur</option>
+                <option value = 'jet'>gondal</option>
+                <option value = 'jnd'>junagadh</option>
+                <option value = 'gnd'>dhoraji</option></optgroup>
+                <optgroup lable = 'rajsthan'>
+                <option value = 'udp'>ahmedabad</option>
+                <option value = 'hld'>surat</option>
+                <option value = 'srn'>baroda</option></optgroup>
+
+
+                </select></td>
+            </tr>
+            
+            <tr>
+                <td>Address</td><td><textarea name="adr" cols='30' rows='5'></textarea></td>
+            
+            </tr>
+            <tr><td>photo upload</td><td><input type = 'file' accept = 'image\*'></td></tr>
+            <tr><td>EMAIL :</td><td><input type ='email'></td></tr>
+            <tr><td>Age:</td><td><input type = 'num.ber' value=20 min = '10' max = '60' step = '5'</td></tr>
+            <tr><td>DOB</td><td><input type = 'date'</td></tr>
+            <tr><td>price range</td><td>100<input type = 'range'>1000</td></tr>
+            <tr><td>color</td><td><input type = 'color'></td></tr>
+
+
+            <tr>
+                <td class = b1><input type = 'submit' value ='submit form'></td><td><input type = 'reset' value = 'reset'></td>
+            </tr>
+
+</form>
+</table>
+</body>
+</html>
+        
